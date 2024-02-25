@@ -13,7 +13,7 @@
 			"attribution": "© <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors",
 			"tilejson": "3.0.0",
 			"tiles": [
-				"http://localhost:8080/{z}/{x}/{y}.pbf"
+				"https://astridx.github.io/vectortilestest/tiles/{z}/{x}/{y}.pbf"
 			],
 			"type": "vector",
 			"scheme": "xyz",
