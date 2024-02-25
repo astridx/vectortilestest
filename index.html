@@ -4,15 +4,15 @@
         <link href='https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.css' rel='stylesheet' />
     </head>
     <body>
-        <div id='map' style='width: 90vw; height: 90vh;'></div>t     
+        <div id='map' style='width: 90vw; height: 90vh;'></div>te    
         <script>
         var map = new maplibregl.Map({
         container: 'map',
         style: 'https://astridx.github.io/vectortilestest/style.json', 
         center: [-1, 37.5], 
-        zoom: 15 
+        zoom: 17
         });
-        map.addControl(new NavigationControl(), 'top-left');
+        map.addControl(new maplibregl.NavigationControl());
         </script>
     </body>
 </html>
