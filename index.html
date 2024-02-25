@@ -4,7 +4,7 @@
         <link href='https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.css' rel='stylesheet' />
     </head>
     <body>
-        <div id='map' style='width: 90vw; height: 90vh;'></div>       
+        <div id='map' style='width: 90vw; height: 90vh;'></div>t     
         <script>
         var map = new maplibregl.Map({
         container: 'map',
@@ -12,8 +12,7 @@
         center: [-1, 37.5], 
         zoom: 15 
         });
-        let nav = new NavigationControl();
-        map.addControl(nav, 'top-left');
+        map.addControl(new NavigationControl(), 'top-left');
         </script>
     </body>
 </html>
