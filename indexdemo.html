@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <script src='https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.js'></script>
+        <link href='https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.css' rel='stylesheet' />
+    </head>
+    <body>
+        <div id='map' style='width: 90vw; height: 90vh;'></div>   
+        <script>
+        var map = new maplibregl.Map({
+        container: 'map',
+        style: 'https://demo.tilekiln.xyz/shortbread_v1/tilejson.json', 
+        center: [-1.35, 37.73], 
+        zoom: 7
+        });
+        map.addControl(new maplibregl.NavigationControl());
+        </script>
+    </body>
+</html>
