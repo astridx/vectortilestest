@@ -60,8 +60,14 @@
         });
 
 
+        var afterMap = new maplibregl.Map({
+            container: "after",
+            style: "https://pnorman.github.io/tilekiln-shortbread-demo/colorful.json",
+            center: [7.221275, 50.326111],
+            zoom: 5,
+        });
 
-        const afterMap = new maplibregl.Map({
+/*        const afterMap = new maplibregl.Map({
             container: 'after', // container id
             style: {
                 'version': 8,
@@ -89,7 +95,7 @@
             center: [7.221275, 50.326111],
             zoom: 5,
         });
-
+*/
 
         // A selector or reference to HTML element
         var container = "#comparison-container";
